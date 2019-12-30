@@ -23,7 +23,7 @@ const Game = function() {
 			this.player.velocityY += this.gravity;
 			this.player.update();
 			this.player.velocityX *= this.friction;
-			this.player.velocityY *= this.fruction;
+			this.player.velocityY *= this.friction;
 			this.collideObject(this.player);
 		}
 	};
